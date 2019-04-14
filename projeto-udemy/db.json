@@ -1,0 +1,102 @@
+{
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "vinicius",
+      "sobrenome": "andrade",
+      "telefone": "33665588",
+      "operadora": {
+        "id": 1,
+        "nome": "claro"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "paulo",
+      "sobrenome": "miguel",
+      "telefone": "33698852",
+      "operadora": {
+        "id": 3,
+        "nome": "Vivo"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Laura",
+      "sobrenome": "de Souza",
+      "telefone": "111 090909 111",
+      "operadora": {
+        "id": 4,
+        "nome": "Tim"
+      }
+    },
+    {
+      "nome": "José",
+      "sobrenome": "Henrique da silva Guimarães",
+      "telefone": "(31) 98558-1021",
+      "operadora": {
+        "id": "1",
+        "nome": "Claro"
+      },
+      "id": 4
+    },
+    {
+      "nome": "vitor",
+      "sobrenome": "borges",
+      "telefone": "31995160081",
+      "operadora": {
+        "id": "2",
+        "nome": "Vivo"
+      },
+      "id": 5
+    },
+    {
+      "nome": "Jeane",
+      "sobrenome": "Santos",
+      "telefone": "(31) 98545617",
+      "operadora": {
+        "id": "3",
+        "nome": "Oi"
+      },
+      "id": 6
+    },
+    {
+      "nome": "luciana",
+      "sobrenome": "duarte",
+      "telefone": "31 975001837",
+      "operadora": {
+        "id": "4",
+        "nome": "Tim"
+      },
+      "id": 7
+    },
+    {
+      "nome": "José",
+      "sobrenome": "Henrique da silva Guimarães",
+      "telefone": "(31) 98558-1021",
+      "operadora": {
+        "id": "1",
+        "nome": "Claro"
+      },
+      "id": 8
+    }
+  ],
+  "operadoras": [
+    {
+      "id": 1,
+      "nome": "claro"
+    },
+    {
+      "id": 2,
+      "nome": "Oi"
+    },
+    {
+      "id": 3,
+      "nome": "Vivo"
+    },
+    {
+      "id": 4,
+      "nome": "Tim"
+    }
+  ]
+}

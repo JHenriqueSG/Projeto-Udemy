@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+</head>
+<body id="corpo">
+    <div>
+        <fieldset>
+            <legend>cadastrar</legend>
+            
+            <div class="row">
+                <div class="form-group col-sm-6">
+                    <label>Nome:</label>
+                    <input id="nome" class="form-control" type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label>Sobrenome:</label>
+                    <input id="sobrenome" class="form-control" type="text" placeholder="Digite seu sobrenome">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm-6">
+                    <label>Telefone:</label>
+                    <input id="telefone" class="form-control" type="text" placeholder="Digite seu telefone">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label>operadora:</label>
+                    <select id="operadora" class="form-control">
+                        <option value="">-- Selecione --</option>
+                        <option value="1">Claro</option>
+                        <option value="2">Vivo</option>
+                        <option value="3">Oi</option>
+                        <option value="4">Tim</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div id="Msg" class="alert" role="alert">...</div>
+            <hr>
+                 
+            <button onclick="cadastrar()" class="btn btn-success">Cadastrar</button>
+            <!--<button onclick="excluir()" class="btn btn-danger">Excluir</button>-->
+            <button onclick="cancelar()" class="btn btn-danger">Cancelar</button>
+        </fieldset>
+        <br>
+
+        <table id="tabelaAgenda" class="table">
+            <thead class="thead-dark">
+                <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Telefone</th>
+                        <th>Operadora</th>
+                        <th>opções</th>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

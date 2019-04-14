@@ -1,0 +1,19 @@
+body{
+    background: darkolivegreen;
+
+}
+.alert{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.ocultar{
+    display: none;
+}
+.bordaValidacao{
+    border: 2px solid red;
+}
+.table{
+    background: white;
+}
